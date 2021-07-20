@@ -1,0 +1,15 @@
+.navegador {
+    background-color: aqua;
+    display: flex;
+}
+
+.navegador .link-navegador {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.navegador .link-navegador:hover {
+    background-color: rgb(22, 224, 224);
+}
