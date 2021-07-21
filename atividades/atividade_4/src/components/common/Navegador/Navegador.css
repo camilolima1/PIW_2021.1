@@ -1,0 +1,42 @@
+nav {
+    width: 700px;
+    height: 40px;
+    
+    display: flex;
+    align-items: baseline;
+
+    margin: auto;
+    padding: 0px 5px;
+
+    background-color: rgb(36, 36, 173);
+    color: white;
+}
+
+nav div {
+    margin-left: auto;
+
+    height: 100%;
+
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+nav div button {
+    color: white;
+    background-color: transparent;
+    
+    height: 100%;
+    padding: 0px 8px;
+
+    border: none;
+}
+
+nav div span {
+    height: 100%;
+}
+
+nav div button.active {
+    font-weight: bold;
+    background-color: rgb(27, 27, 133);
+}
