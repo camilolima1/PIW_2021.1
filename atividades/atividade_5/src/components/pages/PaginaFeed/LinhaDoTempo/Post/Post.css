@@ -1,0 +1,61 @@
+.container-card {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    color: white;
+    background-color: rgb(27, 27, 230);
+
+    padding: 15px 10px;
+}
+
+.card_nome {
+    display: block;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+.card_mensagem {
+    display: block;
+    padding: 0px 15px;
+    margin-bottom: 5px;
+}
+
+.container_likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_mensagem-like_button {
+    padding: 7px 16px;
+
+    color: whitesmoke;
+    background-color: rgb(36, 36, 173);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.card_mensagem-like_button:hover {
+    font-weight: bold;
+
+    background-color: rgb(27, 27, 133);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.comentarios {
+    margin-top: 5px;
+    padding: 5px;
+
+    max-height: 100px;
+    /* background-color: rosybrown; */
+    overflow-y: auto;
+}
+
+.form-post {
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

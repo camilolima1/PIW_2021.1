@@ -1,0 +1,13 @@
+.pagina_postar {
+    width: 700px;
+    height: 100vh;
+
+    margin: auto;
+    
+    background-color: rgb(142, 142, 238);
+}
+
+.pagina_postar > div {
+   display: flex;
+   justify-content: center;
+}

@@ -1,0 +1,46 @@
+nav {
+    width: 700px;
+    height: 40px;
+    
+    display: flex;
+
+    margin: auto;
+    padding: 0px 8px;
+
+    background-color: rgb(36, 36, 173);
+    color: white;
+}
+
+nav div {
+    margin-left: auto;
+
+    height: 100%;
+
+    display: flex;
+    gap: 8px;
+}
+
+.link-navegador {
+    height: 100%;
+    
+    padding: 0px 8px;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+
+    background-color: transparent;
+}
+
+nav div span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav div .link-navegador.active {
+    font-weight: bold;
+    background-color: rgb(27, 27, 133);
+}
